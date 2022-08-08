@@ -62,7 +62,7 @@ packer.startup({
     use("LinArcX/telescope-env.nvim")
     use("nvim-telescope/telescope-ui-select.nvim")
     -- dashboard-nvim
-    use("glepnir/dashboard-nvim")
+    --use("glepnir/dashboard-nvim")
     -- project
     use("ahmedkhalf/project.nvim")
     -- treesitter
@@ -73,6 +73,8 @@ packer.startup({
     use("p00f/nvim-ts-rainbow")
     -- indent-blankline
     use("lukas-reineke/indent-blankline.nvim")
+    --alpha-nvim
+    use({ "goolord/alpha-nvim", commit = "ef27a59e5b4d7b1c2fe1950da3fe5b1c5f3b4c94" })
     --------------------- LSP --------------------
     -- use({ "williamboman/nvim-lsp-installer", commit = "36b44679f7cc73968dbb3b09246798a19f7c14e0" })
     use({ "williamboman/nvim-lsp-installer" })

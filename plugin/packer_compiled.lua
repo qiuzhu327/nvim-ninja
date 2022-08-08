@@ -74,6 +74,11 @@ _G.packer_plugins = {
     path = "/Users/qunrenouyang/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["alpha-nvim"] = {
+    loaded = true,
+    path = "/Users/qunrenouyang/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/Users/qunrenouyang/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -283,11 +288,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/qunrenouyang/.local/share/nvim/site/pack/packer/start/schemastore.nvim",
     url = "https://github.com/b0o/schemastore.nvim"
-  },
-  smartim = {
-    loaded = true,
-    path = "/Users/qunrenouyang/.local/share/nvim/site/pack/packer/start/smartim",
-    url = "https://github.com/ybian/smartim"
   },
   ["surround.nvim"] = {
     loaded = true,
