@@ -58,6 +58,16 @@ local tc = Terminal:new({
   direction = "horizontal",
   close_on_exit = true,
 })
+local node = Terminal:new({
+  cmd = "node",
+  hidden = true,
+})
+
+local ncdu = Terminal:new({
+  cmd = "ncdu",
+  hidden = true,
+  direction = 'float'
+})
 
 local M = {}
 
@@ -93,6 +103,14 @@ end
 
 M.toggleG = function()
   lazygit:toggle()
+end
+
+M.toggleN = function()
+  node:toggle()
+end
+
+M.toggleU = function()
+  ncdu:toggle()
 end
 
 require("keybindings").mapToggleTerm(M)

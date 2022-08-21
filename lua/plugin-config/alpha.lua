@@ -24,6 +24,7 @@ dashboard.section.buttons.val = {
 local plugins_count = vim.fn.len(
     vim.fn.globpath('~/.local/share/nvim/site/pack/packer/start', '*', 0, 1)
 )
+
 local function footer()
    return {'-- Neovim Loaded ' .. plugins_count .. ' Plugins --'}
 end

@@ -114,11 +114,6 @@ _G.packer_plugins = {
     path = "/Users/qunrenouyang/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
-  ["dashboard-nvim"] = {
-    loaded = true,
-    path = "/Users/qunrenouyang/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
-    url = "https://github.com/glepnir/dashboard-nvim"
-  },
   ["fidget.nvim"] = {
     loaded = true,
     path = "/Users/qunrenouyang/.local/share/nvim/site/pack/packer/start/fidget.nvim",
